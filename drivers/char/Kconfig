@@ -383,6 +383,26 @@ config HANGCHECK_TIMER
 	  out to lunch past a certain margin.  It can reboot the system
 	  or merely print a warning.
 
+config TEST_LIST
+	tristate "test list sample code"
+	help
+	  test list sample code
+
+config TEST_LLIST
+	tristate "test llist sample code"
+	help
+	  test llist sample code
+
+config TEST_PLIST
+	tristate "test plist sample code"
+	help
+	  test plist sample code
+
+config TEST_IDR
+	tristate "test idr sample code"
+	help
+	  test idr sample code
+
 config UV_MMTIMER
 	tristate "UV_MMTIMER Memory mapped RTC for SGI UV"
 	depends on X86_UV

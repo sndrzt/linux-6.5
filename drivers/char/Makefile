@@ -37,6 +37,10 @@ obj-$(CONFIG_MWAVE)		+= mwave/
 obj-y				+= agp/
 
 obj-$(CONFIG_HANGCHECK_TIMER)	+= hangcheck-timer.o
+obj-$(CONFIG_TEST_LIST)		+= test_list.o
+obj-$(CONFIG_TEST_LLIST)	+= test_llist.o
+obj-$(CONFIG_TEST_PLIST)	+= test_plist.o
+obj-$(CONFIG_TEST_IDR)		+= test_idr.o
 obj-$(CONFIG_TCG_TPM)		+= tpm/
 
 obj-$(CONFIG_PS3_FLASH)		+= ps3flash.o
